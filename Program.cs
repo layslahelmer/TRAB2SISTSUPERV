@@ -19,8 +19,8 @@ namespace trabalho2L
             meuOutroCircuito.Calcular(true);//chama o metodo para calcular Serie
 
 
-            Circuit maiorPot = Circuit.potenciaInstancia(meuCircuito1,meuCircuito2);
-            Console.WriteLine( "A menor Potencia em Serie é : "+maiorPot.PotenciaTotal());
+            Circuit menorPot = Circuit.potenciaInstancia(meuCircuito1,meuCircuito2);
+            Console.WriteLine( "A menor Potencia em Serie é : "+menorPot.PotenciaTotal());
             
         }
     }
